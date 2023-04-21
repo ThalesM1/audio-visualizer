@@ -49,7 +49,7 @@ class WebGl {
 
     this.renderer.setPixelRatio(ratio);
 
-    this.renderer.setClearColor(0x444444, 1);
+    this.renderer.setClearColor(0x000000, 1);
 
     document.body.appendChild(this.renderer.domElement);
 

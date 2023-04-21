@@ -38,7 +38,7 @@ html {
     display: flex;
     border: 1px solid white;
     color: white;
-    font-size:  1.5rem;
+    font-size:  1rem;
     padding: 10px;
     flex-direction: column;
     font-style: italic;
