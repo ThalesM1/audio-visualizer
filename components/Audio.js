@@ -58,7 +58,7 @@ export default class Audio {
       var request = new XMLHttpRequest();
   
   
-      request.open('GET', '/justice.txt', true)
+      request.open('GET', 'justice.txt', true)
       request.responseType = "arraybuffer";
   
   
