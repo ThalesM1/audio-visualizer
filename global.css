@@ -18,8 +18,8 @@ html {
 }
 .txt_content{
     position: absolute;
-    top:0;
-    left:0;
+    top:2%;
+    left:25%;
     display: flex;
     overflow: hidden;
     border: 1px solid white;
