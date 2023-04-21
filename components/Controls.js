@@ -38,7 +38,7 @@ export default class Controls{
   
   
       // about interpolation : http://paulbourke.net/miscellaneous/interpolation/
-      this.gui_type = this.gui.addFolder('Modelo de Interpoção');
+      this.gui_type = this.gui.addFolder('Modelo de Interpolação');
       this.gui_type.open();
       this.gui_type.add(this.props, "isNo").name("Nenhuma").listen().onChange(this.changeType1.bind(this));
       this.gui_type.add(this.props, "isLinear").name("Linear ").listen().onChange(this.changeType2.bind(this));
