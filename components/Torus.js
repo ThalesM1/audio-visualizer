@@ -302,10 +302,10 @@ void main(){
     aFrequency.needsUpdate = true;
  
       for(let i = 0; i < aFrequency.count; i++){
-      let num = this.orderNumArray[i*2];
+      let num = this.orderNumArray[i];
       if(num === this.tubularSegments) num = 0;
       let spectrum = spectrums[num];
-      aFrequency.array[i*2] = spectrum*2;
+      aFrequency.array[i] = spectrum*2;
     
     
       }
