@@ -35,8 +35,9 @@ export default class Audio {
    
        this.analyzer = new Analyzer(this, 0.9,4.5)
      
-      this.render();   this.loadAudio();
-          
+      this.render();  
+      this.loadAudio();
+      
 
       this.playEle.addEventListener("click", function(){
         if(this.isReady) return;
